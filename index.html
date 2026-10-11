@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070914">
+  <meta name="description" content="Siddharth Sonkar — aspiring software engineer, Java and full-stack developer.">
+  <title>Siddharth Sonkar | Software Engineer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="particles" aria-hidden="true"></canvas>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-mark">S</span><span>SIDDHARTH<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a class="nav-contact" href="#contact">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES</div>
+        <p class="hero-kicker">HELLO, I'M</p>
+        <h1>Siddharth<br><span class="gradient-text">Sonkar.</span></h1>
+        <h2>Aspiring Software Engineer <span class="slash">/</span> <span id="typeText">Java Developer</span></h2>
+        <p class="hero-desc">I build thoughtful software with clean code, practical problem-solving, and a focus on useful user experiences.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="btn btn-ghost" href="#contact">Let's connect <span>↗</span></a>
+        </div>
+        <div class="hero-links">
+          <a href="https://github.com/sonkarsidd" target="_blank" rel="noreferrer">GITHUB ↗</a>
+          <span></span>
+          <a href="https://www.linkedin.com/in/siddharthsonkar" target="_blank" rel="noreferrer">LINKEDIN ↗</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Abstract neon 3D orb illustration">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+        <div class="orb"><div class="orb-shine"></div><div class="orb-grid"></div></div>
+        <div class="float-card card-code"><span class="mini-icon">&lt;/&gt;</span><div><b>Clean Code</b><small>Built with purpose</small></div></div>
+        <div class="float-card card-stack"><span class="mini-icon">✳</span><div><b>Full Stack</b><small>Learning by building</small></div></div>
+        <div class="art-caption"><span>FIG. 01</span><span>CREATIVE SYSTEMS / 2026</span></div>
+      </div>
+      <a class="scroll-hint" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-wrap section" id="about">
+      <div class="section-heading"><p class="section-index">01 / ABOUT</p><h2>Curious mind.<br><span class="muted">Builder's mindset.</span></h2></div>
+      <div class="about-content">
+        <p class="large-copy">I'm a Computer Science engineering graduate-in-progress who enjoys turning ideas into reliable, user-friendly software.</p>
+        <p class="body-copy">My interests include Java development, backend systems, REST APIs, databases, and responsive web interfaces. I value readable code, steady learning, and solving problems one step at a time.</p>
+        <div class="stats">
+          <div><strong>Java</strong><span>Core programming</span></div>
+          <div><strong>MERN</strong><span>Full-stack ecosystem</span></div>
+          <div><strong>2026</strong><span>Graduation year</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap section" id="skills">
+      <div class="section-heading"><p class="section-index">02 / TOOLKIT</p><h2>Skills & <span class="gradient-text">technologies.</span></h2><p class="section-sub">Tools and concepts I work with and continue to improve.</p></div>
+      <div class="skill-layout">
+        <div class="skill-card featured-skill"><span class="skill-number">01</span><div class="skill-symbol">⌘</div><h3>Programming</h3><div class="tags"><span>Java</span><span>JavaScript</span><span>SQL</span><span>OOP</span></div></div>
+        <div class="skill-card"><span class="skill-number">02</span><div class="skill-symbol">◈</div><h3>Web Development</h3><div class="tags"><span>HTML</span><span>CSS</span><span>React</span><span>MERN basics</span><span>REST APIs</span></div></div>
+        <div class="skill-card"><span class="skill-number">03</span><div class="skill-symbol">▦</div><h3>Data & Fundamentals</h3><div class="tags"><span>DBMS</span><span>Computer Networks</span><span>Operating Systems</span><span>MongoDB</span></div></div>
+        <div class="skill-card"><span class="skill-number">04</span><div class="skill-symbol">⌁</div><h3>Tools & Workflow</h3><div class="tags"><span>Git</span><span>GitHub</span><span>VS Code</span><span>MS Excel</span><span>MS Word</span></div></div>
+      </div>
+    </section>
+
+    <section class="section-wrap section" id="projects">
+      <div class="section-heading"><p class="section-index">03 / SELECTED WORK</p><h2>Projects with <span class="gradient-text">purpose.</span></h2></div>
+      <article class="project-card">
+        <div class="project-visual"><div class="window-bar"><i></i><i></i><i></i><span>railway-system / dashboard</span></div><div class="mock-ui"><div class="mock-sidebar"><b>R.</b><span></span><span></span><span></span><span></span></div><div class="mock-main"><small>BOOKING OVERVIEW</small><div class="mock-title">Your journey,<br>simplified.</div><div class="mock-stats"><span></span><span></span><span></span></div><div class="mock-route"><b> भोपाल </b><div class="route-line"></div><b> दिल्ली </b></div><div class="mock-bottom"></div></div></div></div>
+        <div class="project-info"><p class="project-label">FEATURED PROJECT / 01</p><h3>Railway Management System</h3><p>A railway booking experience focused on role-based access, real-time seat availability, and a responsive interface.</p><ul><li>Admin and passenger authentication using JWT and bcrypt</li><li>MongoDB indexing and query optimization</li><li>Socket.io updates for seat availability and booking</li><li>Responsive React UI and simulated payment flow</li></ul><div class="tags"><span>React</span><span>Node.js</span><span>MongoDB</span><span>Socket.io</span><span>JWT</span></div><p class="project-note">Project details are based on the resume. Add a verified repository/demo link here when ready.</p></div>
+      </article>
+    </section>
+
+    <section class="section-wrap section" id="education">
+      <div class="section-heading"><p class="section-index">04 / JOURNEY</p><h2>Education & <span class="gradient-text">certificates.</span></h2></div>
+      <div class="timeline">
+        <div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-date">2022 — 2026</div><div><h3>B.Tech — Computer Science & Engineering</h3><p>LNCT, Bhopal</p><span class="result-chip">CGPA 7.06</span></div></div>
+        <div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-date">2022</div><div><h3>Class XII</h3><p>Senior Secondary</p><span class="result-chip">80%</span></div></div>
+        <div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-date">2020</div><div><h3>Class X</h3><p>Secondary School</p><span class="result-chip">90%</span></div></div>
+      </div>
+      <div class="cert-grid"><div class="cert-card"><span>✦</span><div><h3>Java Fundamentals</h3><p>Infosys</p></div><small> CERTIFICATE 01</small></div><div class="cert-card"><span>✧</span><div><h3>Database Management</h3><p>Infosys</p></div><small> CERTIFICATE 02</small></div></div>
+    </section>
+
+    <section class="section-wrap contact-section" id="contact">
+      <p class="section-index">05 / CONTACT</p><div class="contact-orb"></div><h2>Let's build something<br><span class="gradient-text">meaningful.</span></h2><p>Open to entry-level software roles, internships, and collaboration opportunities.</p>
+      <a class="btn btn-primary email-btn" href="mailto:sonkarsidd6142@gmail.com">sonkarsidd6142@gmail.com <span>↗</span></a>
+      <div class="contact-links"><a href="https://github.com/sonkarsidd" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/siddharthsonkar" target="_blank" rel="noreferrer">LinkedIn ↗</a><span>Phone: +91 6268488726</span></div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#home"><span class="brand-mark">S</span><span>SIDDHARTH<span class="brand-dot">.</span></span></a><p>Designed with curiosity <span class="gradient-text">✦</span> © <span id="year">2026</span> Siddharth Sonkar</p><a href="#home" class="back-top">BACK TO TOP ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
